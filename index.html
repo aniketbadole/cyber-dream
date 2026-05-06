@@ -3,136 +3,174 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cyber‑Dream – Building a Safer Digital World</title>
+    <title>Cyber‑Dream – AI‑Powered Protection for Everyone</title>
     <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    <!-- Material Icons for simple, consistent icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap" rel="stylesheet" />
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="site-header">
+    <!-- Navigation Bar -->
+    <header class="nav">
       <div class="container">
-        <h1 class="logo">Cyber‑Dream</h1>
-        <nav class="site-nav">
+        <a href="#" class="brand-logo">
+          <span class="material-icons">shield</span>
+          Cyber‑Dream
+        </a>
+        <nav class="nav-links">
           <ul>
-            <li><a href="#mission">Mission</a></li>
-            <li><a href="#product">Product</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#features">Features</a></li>
             <li><a href="#vision">Vision</a></li>
+            <li><a href="#solutions">Solutions</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
+        <a href="#solutions" class="cta-btn">Start Protecting Now</a>
       </div>
     </header>
 
     <!-- Hero Section -->
     <section class="hero">
-      <div class="hero-overlay"></div>
-      <div class="hero-content container">
-        <h2 class="hero-title">AI‑Driven Cybersecurity for Everyone</h2>
-        <p class="hero-text">
-          Building accessible tools that keep you safe, smart and in control of your
-          digital world.
-        </p>
-        <a href="#mission" class="btn">Learn&nbsp;More</a>
+      <div class="container hero-grid">
+        <!-- Left column: marketing copy -->
+        <div class="hero-left">
+          <h1>Secure Your Digital Future.<br />
+            Simple, AI‑Powered Protection for Everyone.</h1>
+          <p>
+            From students to small businesses, Cyber‑Dream makes enterprise‑grade
+            cybersecurity accessible to everyday people — not just big budgets.
+          </p>
+          <a href="#solutions" class="btn primary">Get Your Custom Protection Plan</a>
+        </div>
+        <!-- Right column: shield graphic and device icons -->
+        <div class="hero-right">
+          <div class="shield-wrapper">
+            <span class="material-icons large-icon">shield</span>
+            <!-- Device icons below the shield -->
+            <div class="icon-row">
+              <div class="icon-card"><span class="material-icons">laptop</span></div>
+              <div class="icon-card"><span class="material-icons">smartphone</span></div>
+              <div class="icon-card"><span class="material-icons">storefront</span></div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <!-- Mission Section -->
-    <section id="mission" class="section">
+    <!-- Features Section -->
+    <section id="features" class="features">
       <div class="container">
-        <h2>Our Mission</h2>
-        <p>
-          Our passion is to build AI‑driven cybersecurity technologies that
-          empower individuals and small businesses to take control of their
-          digital safety. Today, many defences are reserved for those with
-          large budgets and specialist teams. We believe everyone deserves
-          intelligent protection that is easy to use and respects their
-          privacy.
-        </p>
-        <p>
-          By combining cutting‑edge artificial intelligence with
-          privacy‑preserving techniques, we are creating tools that
-          proactively detect threats, explain risks in plain language and
-          guide users toward safer habits. Our work is about democratizing
-          cyber defence so that anyone, anywhere can navigate the digital
-          world with confidence.
-        </p>
+        <div class="feature-grid">
+          <div class="feature-card">
+            <span class="material-icons feature-icon">psychology</span>
+            <h3>AI‑Threat Shield</h3>
+            <p>Proactive, intelligent threat detection that neutralizes risks before they cause harm.</p>
+          </div>
+          <div class="feature-card">
+            <span class="material-icons feature-icon">verified_user</span>
+            <h3>Accessible Security</h3>
+            <p>Tailored for smaller scale needs, delivering enterprise‑level protection without the enterprise price.</p>
+          </div>
+          <div class="feature-card">
+            <span class="material-icons feature-icon">lightbulb</span>
+            <h3>Learn &amp; Grow Securely</h3>
+            <p>User empowerment and easy‑to‑understand insights help you develop safer habits every day.</p>
+          </div>
+        </div>
       </div>
     </section>
 
-    <!-- Product Section -->
-    <section id="product" class="section section-alt">
-      <div class="container">
-        <h2>Our Product</h2>
-        <p>
-          We are developing an AI‑driven cybersecurity solution designed for
-          everyday users. It continuously monitors your devices and accounts,
-          learns from patterns to identify suspicious activity and alerts you
-          in real time. The interface provides clear, actionable guidance so
-          you know exactly what’s happening and how to respond.
-        </p>
-        <p>
-          Unlike traditional security software, our tool works silently in
-          the background, adapts to your behaviour and keeps your data on
-          your device — never sending your personal information to the cloud.
-          It’s cybersecurity that protects you without compromising
-          convenience or privacy.
-        </p>
+    <!-- Founder Vision Section -->
+    <section id="vision" class="vision">
+      <div class="container vision-grid">
+        <div class="avatar-circle">
+          <span class="material-icons">person</span>
+        </div>
+        <div class="vision-right">
+          <h2>A Vision to Build Things That Matter</h2>
+          <p>
+            Cyber‑Dream was born from a simple belief: technology should empower
+            people, not intimidate them. Our mission is to create AI‑powered
+            cybersecurity tools that keep your digital life safe, secure and
+            within reach for everyone.
+          </p>
+        </div>
       </div>
     </section>
 
-    <!-- Vision Section -->
-    <section id="vision" class="section">
+    <!-- Solutions Section -->
+    <section id="solutions" class="solutions">
       <div class="container">
-        <h2>Our Journey &amp; Future</h2>
-        <p>
-          We envision a future where digital safety is built into the fabric
-          of our lives. To get there, we are experimenting with new
-          technologies, building prototypes and learning from users to refine
-          our approach. Our journey is just beginning, and we invite
-          collaborators, mentors and supporters to join us as we
-          revolutionize cybersecurity.
-        </p>
-        <p>
-          This site is a snapshot of what we are building and where we are
-          headed. We’re committed to transparency and to creating tools
-          that truly make a difference.
-        </p>
-      </div>
-    </section>
-
-    <!-- Scholarship Section -->
-    <section id="scholarship" class="section">
-      <div class="container">
-        <h2>Why This Scholarship Matters</h2>
-        <p>
-          Studying abroad brings many pressures: tuition, rent, living costs
-          and the constant need to balance survival with ambition. A
-          scholarship would not just help financially; it would give me the
-          breathing space to continue learning deeply, to build seriously and
-          to take my ideas further. It’s not just about obtaining a degree —
-          it’s about becoming someone who builds things that matter.
-        </p>
+        <h2>Explore Solutions</h2>
+        <div class="solution-grid">
+          <div class="solution-column">
+            <h3>Standard Protection</h3>
+            <ul>
+              <li>Basic network monitoring</li>
+              <li>Generic antivirus software</li>
+              <li>Manual threat updates</li>
+            </ul>
+            <a href="#contact" class="btn secondary">Learn more</a>
+          </div>
+          <div class="solution-column highlight">
+            <h3>Cyber‑Dream</h3>
+            <ul>
+              <li>AI‑driven threat shield</li>
+              <li>Real‑time detection &amp; response</li>
+              <li>Proactive risk prevention</li>
+            </ul>
+            <a href="#contact" class="btn secondary">Learn more</a>
+          </div>
+        </div>
       </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="section section-alt">
+    <section id="contact" class="contact">
       <div class="container">
         <h2>Get in Touch</h2>
-        <p>
-          Interested in collaborating, mentoring or simply learning more?
-          Reach out and let’s make the digital world safer together.
-        </p>
-        <a href="mailto:contact@example.com" class="btn">Email Me</a>
+        <p>Interested in collaborating or learning more? Reach out and let’s make the digital world safer together.</p>
+        <a href="mailto:contact@example.com" class="btn primary">Email Us</a>
       </div>
     </section>
 
-    <footer class="site-footer">
-      <div class="container">
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-grid">
+        <!-- Sitemap -->
+        <div class="footer-column">
+          <h4>Sitemap</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#vision">Vision</a></li>
+            <li><a href="#solutions">Solutions</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <!-- Social Media -->
+        <div class="footer-column">
+          <h4>Social</h4>
+          <div class="social-icons">
+            <a href="#" aria-label="Twitter"><span class="material-icons">share</span></a>
+            <a href="#" aria-label="LinkedIn"><span class="material-icons">work</span></a>
+            <a href="#" aria-label="GitHub"><span class="material-icons">code</span></a>
+          </div>
+        </div>
+        <!-- Legal -->
+        <div class="footer-column">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Cookies</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-copy">
         <p>&copy; <span id="year"></span> Cyber‑Dream. All rights reserved.</p>
       </div>
     </footer>
