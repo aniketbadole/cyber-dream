@@ -60,7 +60,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 60vh;
+  height: 70vh;
   color: #ffffff;
   background-image: url('images/hero.png');
   background-size: cover;
@@ -73,7 +73,13 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(15, 23, 42, 0.65);
+  /* Use a subtle gradient overlay for a polished look */
+  background: linear-gradient(
+    180deg,
+    rgba(15, 23, 42, 0.8) 0%,
+    rgba(31, 41, 55, 0.7) 50%,
+    rgba(15, 23, 42, 0.8) 100%
+  );
 }
 
 .hero-content {
@@ -95,19 +101,21 @@ body {
   margin-right: auto;
 }
 
+/* Buttons */
 .btn {
   display: inline-block;
-  background-color: #3b82f6;
+  background: linear-gradient(to right, #6366f1, #4f46e5);
   color: #ffffff;
   padding: 0.75rem 1.5rem;
   border-radius: 4px;
   text-decoration: none;
   font-weight: 600;
-  transition: background-color 0.3s ease;
+  transition: background 0.3s ease, transform 0.2s ease;
 }
 
 .btn:hover {
-  background-color: #2563eb;
+  background: linear-gradient(to right, #4f46e5, #4338ca);
+  transform: translateY(-2px);
 }
 
 /* Sections */
